@@ -9,4 +9,4 @@ function _using(o, n, e) {
     a: e
   }), n;
 }
-export { _using as default };
+module.exports = _using, module.exports.__esModule = true, module.exports["default"] = module.exports;

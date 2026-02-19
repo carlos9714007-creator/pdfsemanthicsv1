@@ -4,4 +4,4 @@ function _skipFirstGeneratorNext(t) {
     return r.next(), r;
   };
 }
-export { _skipFirstGeneratorNext as default };
+module.exports = _skipFirstGeneratorNext, module.exports.__esModule = true, module.exports["default"] = module.exports;

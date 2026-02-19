@@ -1,4 +1,4 @@
-import _typeof from "./typeof.js";
+var _typeof = require("./typeof.js")["default"];
 function setFunctionName(e, t, n) {
   "symbol" == _typeof(t) && (t = (t = t.description) ? "[" + t + "]" : "");
   try {
@@ -9,4 +9,4 @@ function setFunctionName(e, t, n) {
   } catch (e) {}
   return e;
 }
-export { setFunctionName as default };
+module.exports = setFunctionName, module.exports.__esModule = true, module.exports["default"] = module.exports;

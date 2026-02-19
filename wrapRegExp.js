@@ -1,10 +1,10 @@
-import _typeof from "./typeof.js";
-import setPrototypeOf from "./setPrototypeOf.js";
-import inherits from "./inherits.js";
+var _typeof = require("./typeof.js")["default"];
+var setPrototypeOf = require("./setPrototypeOf.js");
+var inherits = require("./inherits.js");
 function _wrapRegExp() {
-  _wrapRegExp = function _wrapRegExp(e, r) {
+  module.exports = _wrapRegExp = function _wrapRegExp(e, r) {
     return new BabelRegExp(e, void 0, r);
-  };
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
   var e = RegExp.prototype,
     r = new WeakMap();
   function BabelRegExp(e, t, p) {
@@ -49,4 +49,4 @@ function _wrapRegExp() {
     return e[Symbol.replace].call(this, t, p);
   }, _wrapRegExp.apply(this, arguments);
 }
-export { _wrapRegExp as default };
+module.exports = _wrapRegExp, module.exports.__esModule = true, module.exports["default"] = module.exports;

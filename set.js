@@ -1,5 +1,5 @@
-import superPropBase from "./superPropBase.js";
-import defineProperty from "./defineProperty.js";
+var superPropBase = require("./superPropBase.js");
+var defineProperty = require("./defineProperty.js");
 function set(e, r, t, o) {
   return set = "undefined" != typeof Reflect && Reflect.set ? Reflect.set : function (e, r, t, o) {
     var f,
@@ -19,4 +19,4 @@ function _set(e, r, t, o, f) {
   if (!set(e, r, t, o || e) && f) throw new TypeError("failed to set property");
   return t;
 }
-export { _set as default };
+module.exports = _set, module.exports.__esModule = true, module.exports["default"] = module.exports;

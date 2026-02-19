@@ -5,4 +5,4 @@ function _taggedTemplateLiteral(e, t) {
     }
   }));
 }
-export { _taggedTemplateLiteral as default };
+module.exports = _taggedTemplateLiteral, module.exports.__esModule = true, module.exports["default"] = module.exports;

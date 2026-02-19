@@ -1,2 +1,2 @@
 function _temporalUndefined() {}
-export { _temporalUndefined as default };
+module.exports = _temporalUndefined, module.exports.__esModule = true, module.exports["default"] = module.exports;
