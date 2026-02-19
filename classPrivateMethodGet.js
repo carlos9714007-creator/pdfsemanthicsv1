@@ -1,5 +1,5 @@
-import assertClassBrand from "./assertClassBrand.js";
+var assertClassBrand = require("./assertClassBrand.js");
 function _classPrivateMethodGet(s, a, r) {
   return assertClassBrand(a, s), r;
 }
-export { _classPrivateMethodGet as default };
+module.exports = _classPrivateMethodGet, module.exports.__esModule = true, module.exports["default"] = module.exports;

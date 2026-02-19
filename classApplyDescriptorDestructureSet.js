@@ -7,4 +7,4 @@ function _classApplyDescriptorDestructureSet(e, t) {
   if (!t.writable) throw new TypeError("attempted to set read only private field");
   return t;
 }
-export { _classApplyDescriptorDestructureSet as default };
+module.exports = _classApplyDescriptorDestructureSet, module.exports.__esModule = true, module.exports["default"] = module.exports;

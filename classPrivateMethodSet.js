@@ -1,4 +1,4 @@
 function _classPrivateMethodSet() {
   throw new TypeError("attempted to reassign private method");
 }
-export { _classPrivateMethodSet as default };
+module.exports = _classPrivateMethodSet, module.exports.__esModule = true, module.exports["default"] = module.exports;

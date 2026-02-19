@@ -42,4 +42,4 @@ function AsyncFromSyncIterator(r) {
     }
   }, new AsyncFromSyncIterator(r);
 }
-export { _asyncIterator as default };
+module.exports = _asyncIterator, module.exports.__esModule = true, module.exports["default"] = module.exports;

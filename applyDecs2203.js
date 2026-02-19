@@ -1,4 +1,4 @@
-import _typeof from "./typeof.js";
+var _typeof = require("./typeof.js")["default"];
 function applyDecs2203Factory() {
   function createAddInitializerMethod(e, t) {
     return function (r) {
@@ -181,4 +181,4 @@ var applyDecs2203Impl;
 function applyDecs2203(e, t, r) {
   return (applyDecs2203Impl = applyDecs2203Impl || applyDecs2203Factory())(e, t, r);
 }
-export { applyDecs2203 as default };
+module.exports = applyDecs2203, module.exports.__esModule = true, module.exports["default"] = module.exports;

@@ -1,4 +1,4 @@
-import unsupportedIterableToArray from "./unsupportedIterableToArray.js";
+var unsupportedIterableToArray = require("./unsupportedIterableToArray.js");
 function _createForOfIteratorHelper(r, e) {
   var t = "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"];
   if (!t) {
@@ -47,4 +47,4 @@ function _createForOfIteratorHelper(r, e) {
     }
   };
 }
-export { _createForOfIteratorHelper as default };
+module.exports = _createForOfIteratorHelper, module.exports.__esModule = true, module.exports["default"] = module.exports;

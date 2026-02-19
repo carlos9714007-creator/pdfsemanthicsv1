@@ -1,8 +1,8 @@
-import _typeof from "./typeof.js";
+var _typeof = require("./typeof.js")["default"];
 function _interopRequireWildcard(e, t) {
   if ("function" == typeof WeakMap) var r = new WeakMap(),
     n = new WeakMap();
-  return (_interopRequireWildcard = function _interopRequireWildcard(e, t) {
+  return (module.exports = _interopRequireWildcard = function _interopRequireWildcard(e, t) {
     if (!t && e && e.__esModule) return e;
     var o,
       i,
@@ -17,6 +17,6 @@ function _interopRequireWildcard(e, t) {
     }
     for (var _t in e) "default" !== _t && {}.hasOwnProperty.call(e, _t) && ((i = (o = Object.defineProperty) && Object.getOwnPropertyDescriptor(e, _t)) && (i.get || i.set) ? o(f, _t, i) : f[_t] = e[_t]);
     return f;
-  })(e, t);
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports)(e, t);
 }
-export { _interopRequireWildcard as default };
+module.exports = _interopRequireWildcard, module.exports.__esModule = true, module.exports["default"] = module.exports;

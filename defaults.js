@@ -6,4 +6,4 @@ function _defaults(e, r) {
   }
   return e;
 }
-export { _defaults as default };
+module.exports = _defaults, module.exports.__esModule = true, module.exports["default"] = module.exports;

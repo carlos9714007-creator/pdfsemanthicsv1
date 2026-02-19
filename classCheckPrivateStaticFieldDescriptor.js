@@ -1,4 +1,4 @@
 function _classCheckPrivateStaticFieldDescriptor(t, e) {
   if (void 0 === t) throw new TypeError("attempted to " + e + " private static field before its declaration");
 }
-export { _classCheckPrivateStaticFieldDescriptor as default };
+module.exports = _classCheckPrivateStaticFieldDescriptor, module.exports.__esModule = true, module.exports["default"] = module.exports;

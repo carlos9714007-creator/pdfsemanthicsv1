@@ -1,4 +1,4 @@
-import regeneratorDefine from "./regeneratorDefine.js";
+var regeneratorDefine = require("./regeneratorDefine.js");
 function _regenerator() {
   /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */
   var e,
@@ -79,11 +79,11 @@ function _regenerator() {
     return this;
   }), regeneratorDefine(u, "toString", function () {
     return "[object Generator]";
-  }), (_regenerator = function _regenerator() {
+  }), (module.exports = _regenerator = function _regenerator() {
     return {
       w: i,
       m: f
     };
-  })();
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports)();
 }
-export { _regenerator as default };
+module.exports = _regenerator, module.exports.__esModule = true, module.exports["default"] = module.exports;

@@ -1,7 +1,7 @@
-import classApplyDescriptorDestructureSet from "./classApplyDescriptorDestructureSet.js";
-import classPrivateFieldGet2 from "./classPrivateFieldGet2.js";
+var classApplyDescriptorDestructureSet = require("./classApplyDescriptorDestructureSet.js");
+var classPrivateFieldGet2 = require("./classPrivateFieldGet2.js");
 function _classPrivateFieldDestructureSet(e, t) {
   var r = classPrivateFieldGet2(t, e);
   return classApplyDescriptorDestructureSet(e, r);
 }
-export { _classPrivateFieldDestructureSet as default };
+module.exports = _classPrivateFieldDestructureSet, module.exports.__esModule = true, module.exports["default"] = module.exports;

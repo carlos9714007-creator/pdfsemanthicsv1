@@ -1,5 +1,5 @@
-import assertClassBrand from "./assertClassBrand.js";
+var assertClassBrand = require("./assertClassBrand.js");
 function _classCheckPrivateStaticAccess(s, a, r) {
   return assertClassBrand(a, s, r);
 }
-export { _classCheckPrivateStaticAccess as default };
+module.exports = _classCheckPrivateStaticAccess, module.exports.__esModule = true, module.exports["default"] = module.exports;

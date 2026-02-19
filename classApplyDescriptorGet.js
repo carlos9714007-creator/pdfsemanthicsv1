@@ -1,4 +1,4 @@
 function _classApplyDescriptorGet(e, t) {
   return t.get ? t.get.call(e) : t.value;
 }
-export { _classApplyDescriptorGet as default };
+module.exports = _classApplyDescriptorGet, module.exports.__esModule = true, module.exports["default"] = module.exports;

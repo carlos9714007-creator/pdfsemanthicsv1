@@ -5,7 +5,7 @@ function _regeneratorDefine(e, r, n, t) {
   } catch (e) {
     i = 0;
   }
-  _regeneratorDefine = function regeneratorDefine(e, r, n, t) {
+  module.exports = _regeneratorDefine = function regeneratorDefine(e, r, n, t) {
     function o(r, n) {
       _regeneratorDefine(e, r, function (e) {
         return this._invoke(r, n, e);
@@ -17,6 +17,6 @@ function _regeneratorDefine(e, r, n, t) {
       configurable: !t,
       writable: !t
     }) : e[r] = n : (o("next", 0), o("throw", 1), o("return", 2));
-  }, _regeneratorDefine(e, r, n, t);
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports, _regeneratorDefine(e, r, n, t);
 }
-export { _regeneratorDefine as default };
+module.exports = _regeneratorDefine, module.exports.__esModule = true, module.exports["default"] = module.exports;

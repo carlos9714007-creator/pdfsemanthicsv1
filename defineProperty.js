@@ -1,4 +1,4 @@
-import toPropertyKey from "./toPropertyKey.js";
+var toPropertyKey = require("./toPropertyKey.js");
 function _defineProperty(e, r, t) {
   return (r = toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
     value: t,
@@ -7,4 +7,4 @@ function _defineProperty(e, r, t) {
     writable: !0
   }) : e[r] = t, e;
 }
-export { _defineProperty as default };
+module.exports = _defineProperty, module.exports.__esModule = true, module.exports["default"] = module.exports;

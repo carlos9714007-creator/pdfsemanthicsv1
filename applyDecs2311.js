@@ -1,7 +1,7 @@
-import _typeof from "./typeof.js";
-import checkInRHS from "./checkInRHS.js";
-import setFunctionName from "./setFunctionName.js";
-import toPropertyKey from "./toPropertyKey.js";
+var _typeof = require("./typeof.js")["default"];
+var checkInRHS = require("./checkInRHS.js");
+var setFunctionName = require("./setFunctionName.js");
+var toPropertyKey = require("./toPropertyKey.js");
 function applyDecs2311(e, t, n, r, o, i) {
   var a,
     c,
@@ -121,4 +121,4 @@ function applyDecs2311(e, t, n, r, o, i) {
     }
   };
 }
-export { applyDecs2311 as default };
+module.exports = applyDecs2311, module.exports.__esModule = true, module.exports["default"] = module.exports;

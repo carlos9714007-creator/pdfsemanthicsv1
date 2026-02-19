@@ -1,4 +1,4 @@
-import toPropertyKey from "./toPropertyKey.js";
+var toPropertyKey = require("./toPropertyKey.js");
 function _defineProperties(e, r) {
   for (var t = 0; t < r.length; t++) {
     var o = r[t];
@@ -10,4 +10,4 @@ function _createClass(e, r, t) {
     writable: !1
   }), e;
 }
-export { _createClass as default };
+module.exports = _createClass, module.exports.__esModule = true, module.exports["default"] = module.exports;

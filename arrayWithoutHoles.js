@@ -1,5 +1,5 @@
-import arrayLikeToArray from "./arrayLikeToArray.js";
+var arrayLikeToArray = require("./arrayLikeToArray.js");
 function _arrayWithoutHoles(r) {
   if (Array.isArray(r)) return arrayLikeToArray(r);
 }
-export { _arrayWithoutHoles as default };
+module.exports = _arrayWithoutHoles, module.exports.__esModule = true, module.exports["default"] = module.exports;

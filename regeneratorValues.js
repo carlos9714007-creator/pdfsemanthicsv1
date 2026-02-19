@@ -1,4 +1,4 @@
-import _typeof from "./typeof.js";
+var _typeof = require("./typeof.js")["default"];
 function _regeneratorValues(e) {
   if (null != e) {
     var t = e["function" == typeof Symbol && Symbol.iterator || "@@iterator"],
@@ -16,4 +16,4 @@ function _regeneratorValues(e) {
   }
   throw new TypeError(_typeof(e) + " is not iterable");
 }
-export { _regeneratorValues as default };
+module.exports = _regeneratorValues, module.exports.__esModule = true, module.exports["default"] = module.exports;
