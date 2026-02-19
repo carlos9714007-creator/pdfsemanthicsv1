@@ -1,40 +1,32 @@
 {
-  "name": "pdf-semantic-reader",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+  "name": "@babel/code-frame",
+  "version": "7.29.0",
+  "description": "Generate errors that contain a code frame that point to source locations.",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "homepage": "https://babel.dev/docs/en/next/babel-code-frame",
+  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel.git",
+    "directory": "packages/babel-code-frame"
+  },
+  "main": "./lib/index.js",
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "pdf-lib": "^1.17.1",
-    "pdfjs-dist": "^4.4.168",
-    "tesseract.js": "^5.1.0",
-    "jsqr": "^1.4.0",
-    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz",
-    "jspdf": "^2.5.1",
-    "lucide-react": "^0.395.0",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.3.0"
+    "@babel/helper-validator-identifier": "^7.28.5",
+    "js-tokens": "^4.0.0",
+    "picocolors": "^1.1.1"
   },
   "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.13.1",
-    "@typescript-eslint/parser": "^7.13.1",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1"
-  }
+    "charcodes": "^0.2.0",
+    "import-meta-resolve": "^4.1.0",
+    "strip-ansi": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "type": "commonjs"
 }
