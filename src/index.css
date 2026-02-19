@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+    background-color: #050505;
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 243, 255, 0.05) 0%, transparent 100%);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-cyber-glass backdrop-blur-md border border-cyber-border rounded-xl shadow-2xl;
+  }
+  
+  .cyber-button {
+    @apply relative px-6 py-2 bg-transparent border border-cyber-accent text-cyber-accent 
+           hover:bg-cyber-accent hover:text-black transition-all duration-300
+           uppercase tracking-widest font-bold text-sm overflow-hidden;
+  }
+
+  .cyber-button::after {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-full bg-white opacity-0 hover:opacity-10 transition-opacity;
+  }
+
+  .cyber-input {
+    @apply bg-black/40 border border-cyber-border rounded-lg px-4 py-2 text-white
+           focus:outline-none focus:ring-2 focus:ring-cyber-accent/50 focus:border-cyber-accent
+           transition-all duration-300;
+  }
+}
+
+.cyber-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 243, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 243, 255, 0.05) 1px, transparent 1px);
+}

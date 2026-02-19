@@ -1,0 +1,16 @@
+{
+    "name": "PDF Semantic Reader",
+    "short_name": "PDFSemantics",
+    "description": "Semantic reading and AT QR Code metadata injection.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#050505",
+    "theme_color": "#00f3ff",
+    "icons": [
+        {
+            "src": "https://cdn-icons-png.flaticon.com/512/3371/3371131.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
