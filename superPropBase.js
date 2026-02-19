@@ -1,16 +1,6 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _superPropBase;
-var _getPrototypeOf = require("./getPrototypeOf.js");
-function _superPropBase(object, property) {
-  while (!Object.prototype.hasOwnProperty.call(object, property)) {
-    object = (0, _getPrototypeOf.default)(object);
-    if (object === null) break;
-  }
-  return object;
+import getPrototypeOf from "./getPrototypeOf.js";
+function _superPropBase(t, o) {
+  for (; !{}.hasOwnProperty.call(t, o) && null !== (t = getPrototypeOf(t)););
+  return t;
 }
-
-//# sourceMappingURL=superPropBase.js.map
+export { _superPropBase as default };

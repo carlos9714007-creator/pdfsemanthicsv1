@@ -1,13 +1,6 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _temporalRef;
-var _temporalUndefined = require("./temporalUndefined.js");
-var _tdz = require("./tdz.js");
-function _temporalRef(val, name) {
-  return val === _temporalUndefined.default ? (0, _tdz.default)(name) : val;
+import temporalUndefined from "./temporalUndefined.js";
+import tdz from "./tdz.js";
+function _temporalRef(r, e) {
+  return r === temporalUndefined ? tdz(e) : r;
 }
-
-//# sourceMappingURL=temporalRef.js.map
+export { _temporalRef as default };
