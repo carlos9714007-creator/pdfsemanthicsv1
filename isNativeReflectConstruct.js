@@ -1,16 +1,9 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _isNativeReflectConstruct;
 function _isNativeReflectConstruct() {
   try {
-    var result = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
-  } catch (_) {}
-  return (exports.default = _isNativeReflectConstruct = function () {
-    return !!result;
+    var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
+  } catch (t) {}
+  return (_isNativeReflectConstruct = function _isNativeReflectConstruct() {
+    return !!t;
   })();
 }
-
-//# sourceMappingURL=isNativeReflectConstruct.js.map
+export { _isNativeReflectConstruct as default };

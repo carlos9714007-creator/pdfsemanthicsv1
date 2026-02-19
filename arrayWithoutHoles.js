@@ -1,12 +1,5 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _arrayWithoutHoles;
-var _arrayLikeToArray = require("./arrayLikeToArray.js");
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) return (0, _arrayLikeToArray.default)(arr);
+import arrayLikeToArray from "./arrayLikeToArray.js";
+function _arrayWithoutHoles(r) {
+  if (Array.isArray(r)) return arrayLikeToArray(r);
 }
-
-//# sourceMappingURL=arrayWithoutHoles.js.map
+export { _arrayWithoutHoles as default };

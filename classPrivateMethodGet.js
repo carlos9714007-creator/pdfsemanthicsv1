@@ -1,13 +1,5 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _classPrivateMethodGet;
-var _assertClassBrand = require("assertClassBrand");
-function _classPrivateMethodGet(receiver, privateSet, fn) {
-  _assertClassBrand(privateSet, receiver);
-  return fn;
+import assertClassBrand from "./assertClassBrand.js";
+function _classPrivateMethodGet(s, a, r) {
+  return assertClassBrand(a, s), r;
 }
-
-//# sourceMappingURL=classPrivateMethodGet.js.map
+export { _classPrivateMethodGet as default };

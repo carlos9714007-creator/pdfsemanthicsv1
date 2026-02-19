@@ -1,13 +1,5 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _classPrivateFieldInitSpec;
-var _checkPrivateRedeclaration = require("./checkPrivateRedeclaration.js");
-function _classPrivateFieldInitSpec(obj, privateMap, value) {
-  (0, _checkPrivateRedeclaration.default)(obj, privateMap);
-  privateMap.set(obj, value);
+import checkPrivateRedeclaration from "./checkPrivateRedeclaration.js";
+function _classPrivateFieldInitSpec(e, t, a) {
+  checkPrivateRedeclaration(e, t), t.set(e, a);
 }
-
-//# sourceMappingURL=classPrivateFieldInitSpec.js.map
+export { _classPrivateFieldInitSpec as default };
